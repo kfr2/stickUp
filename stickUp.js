@@ -65,7 +65,7 @@ function($) {
 			vartop = parseInt($(this).offset().top);
 			//$(this).find('*').removeClass(itemHover);
 		}
-		$(document).on('scroll', function() {
+		$(window).on('scroll', function() {
 			varscroll = parseInt($(document).scrollTop());
 			if(menuSize != null){
 				for(var i=0;i < menuSize;i++)
